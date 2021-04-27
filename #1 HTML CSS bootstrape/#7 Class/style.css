@@ -1,0 +1,122 @@
+h1{
+    color: brown;
+    text-align: center;
+    text-shadow: 3px 2px 5px black;
+}
+ol{
+    /* list-style-type: circle; */
+    /* list-style-type: none; */
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ul{
+    /* list-style-type: circle; */
+    /* list-style-type: none; */
+    list-style-type: decimal;
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: upper-roman; */
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+      width: 600px;
+
+      /* for center  */
+      margin: 0 auto;
+      border-collapse: collapse;
+      empty-cells: hide;
+      /* border-spacing: 0px 0px; */
+      
+    }
+
+    tr:nth-child(even){
+background-color: lightskyblue;
+}
+tr:nth-child(odd){
+   background-color: lightblue;
+}
+tr:hover{
+    background-color: lightcyan;
+}
+th,td{
+     padding: 10px;
+     border: 1px solid grey;
+     
+    }
+
+form{
+    width: 500px;
+       padding: 10px;
+       margin: 0 auto;
+       /* text-align: center; */
+    }
+
+input{
+ padding: 10px;
+ margin: 5px;
+ font-size: 1em;  
+ border: 1px solid grey; 
+}
+
+input:focus{
+    border-color: royalblue;
+    background-color: skyblue;
+}
+input.email{
+    /* background-image: url('https://image.shutterstock.com/image-vector/mail-logo-260nw-468389300.jpg'); */
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+          
+}
+
+input.password{
+    /* background-image: url('https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/lock-24-512.png'); */
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+          
+}
+
+button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+fieldset{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+legend{
+    
+    color: royalblue;
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.center{
+    text-align: left;
+}
+
+/* label inline element hta hai yn change kr rhe han width dne k liye */
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+
+}

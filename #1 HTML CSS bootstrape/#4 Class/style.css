@@ -1,0 +1,57 @@
+/* external css */
+/* staric is for universal design of throught out web page */
+h1{
+    background-color: cornflowerblue;
+}
+*{
+    color: pink;
+    background-color: aqua;
+}
+
+/* for direct child  */
+p>b{
+    color: darkgoldenrod;
+    background-color: darkmagenta;
+}
+
+/* for child of child  */
+p i{
+    color: darkgoldenrod;
+    background-color: darkmagenta;
+}
+.bio{
+    color: darkgoldenrod;
+    background-color: darkmagenta;
+
+}
+/* for direct child  */
+li>a{
+    color: darkslategrey;
+    background-color: rgb(28, 255, 20);
+}
+#kil{
+    color: darkslategrey;
+    background-color: deeppink;
+}
+
+/* direct siblings */
+
+h2+li{
+    color: gold;
+    background-color: hotpink;
+}
+
+/* general siblings */
+h3~li{
+    color: gold;
+    background-color: hotpink;
+}
+
+/* hsl css hue,saturation,lightness
+1= 0 to 360
+2= 0% to 100%
+3= depends on your choice */
+
+h4{
+    background-color: hsl(0,20% ,50%);
+}

@@ -1,0 +1,19 @@
+.first{
+
+   
+    /* for z-index */ 
+     /* background-color: red;
+    width: 150px;
+    height: 50px; */
+}
+
+.second{
+  
+    /* fo z-index or overlapping  */
+     /* background-color: blue;
+    width: 150px;
+    height: 50px;
+ position: absolute;
+    top: 782px;
+    z-index: 11;  */
+}

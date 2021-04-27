@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<!-- action k zrye form ka data hmare server k cloud pr chala jata hai jahan data store hta hai -->
+<!-- Action is nothing but a attribute -->
+
+<!-- when the form is small then get method will be use for that. -->
+<!-- when the form is huge/large then post method will be use for that. -->
+
+<body>
+    <form action="http://www.example.com/login.php">
+       
+       <fieldset>
+           <legend>Personal Details</legend>
+        <p><label for="username">USERNAME:</label>  
+            <input required id="username" type="text" name="username" size="15" maxlength="30" placeholder="Enter Your name Here" /> </p>
+        <p> <label for="pass">PASSWORD:</label>  <input id="pass" type="password" name="username" size="15" maxlength="30" /> </p>
+        <p> <label for="num">NUMBER:</label>  <input id="num" type="number" name="username" size="15" maxlength="30" /> </p>
+        <p></p><label for="date">DOB:</label>
+        <input required id="date" type="date" name="date "> 
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input id="email" type="email">
+    </p>
+        <p>
+        <label for="search">search</label>
+        <input id="search" type="search">
+        </p>
+        <p>
+        <label for="url">URL</label>
+        <input id="url" type="url">
+    </p>
+        
+        <p> <label for="male">Gender:</label>  <br />
+            <input type="radio" name="gender" value="male" id="male">Male
+            <input type="radio" name="gender" value="female" id="female"> Female
+            <input type="radio" name="gender" value="Others" id="other"> Others
+        </p></fieldset>
+        <p>
+            Select Courses: <br />
+            <input type="checkbox" name="ans" value=""> Web and Mobile
+            <input type="checkbox" name="ans" value=""> Phyton
+            <input type="checkbox" name="ans" value=""> project Management
+        </p>
+        <p>
+            Select your Country: <br />
+            <select name="Country">
+                <option value="Pakistan">pakistan</option>
+                <option selected value="Saudi Arab">Saudi Arab</option>
+                <option value="India">India</option>
+                <option value="Iran">Iran</option>
+            </select>
+        </p>
+        <p>
+            Select your designated Country for work: <br />
+            <select name="Country" multiple="multiple">
+                <option value="Pakistan">pakistan</option>
+                <option selected value="Saudi Arab">Saudi Arab</option>
+                <option value="India">India</option>
+                <option value="Iran">Iran</option>
+            </select>
+        </p>
+
+        <p>
+            Upload Your file <br />
+            <input type="file" name="">
+        </p>
+
+        <textarea name="comments" cols="30" rows="10">
+     Enter Your Comments
+ </textarea>
+        <br />
+        <input type="hidden" value="submit">
+        <input type="submit" value="submit">
+
+        <button type="submit">Subit Your Response</button>
+        <br />
+        <input type="image" width="200px"
+            src="https://image.shutterstock.com/image-illustration/submit-web-interface-button-clicked-260nw-1052721161.jpg"
+            alt="Submit button">
+    </form>
+</body>
+
+</html>
